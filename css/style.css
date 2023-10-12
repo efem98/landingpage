@@ -1,0 +1,321 @@
+body{
+	background-color: whitesmoke;
+}
+div#parent{
+	height:1000px;
+	background:url('../image/model2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-y: -90px;
+	background-position-x: 220px;
+	position: relative;
+
+}
+
+div#parent header{
+	font-family: fantasy;
+	padding: 60px 0px;
+}
+div#parent header .logo h1{
+	text-transform: lowercase;
+	font-size: 20px;
+	font-weight: 600;
+}
+div#parent header nav{
+	float: right;
+}
+div#parent header nav ul li{
+	float: left;
+	list-style: none;
+
+}
+div#parent header  nav ul li a{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 18px;
+	font-weight:600;
+	padding-left:40px;
+	color: #000;
+}
+.checkbtn{
+font-size: 30px;
+color: #000;
+cursor: pointer;
+display: none;
+
+
+}
+
+#check{
+	display: none;
+}
+
+div#parent header  nav ul li a i{
+	font-weight:600;
+}
+
+
+div#parent section{
+	position: relative;
+	top:120px;
+/*	font-family: fantasy;*/
+}
+div#parent section .title{
+	text-transform: capitalize;
+
+
+}
+div#parent .title h4{
+	font-size: 14px;
+	margin-bottom: -60px;
+}
+div#parent .title h1{
+	font-size: 80px;
+	font-weight: 700;
+	margin-bottom: -25px;
+	line-height: 100px;
+}
+div#parent section .content{
+	overflow: hidden;
+}
+div#parent section .content h5{
+font-size: 13px;
+margin-bottom: 3px;
+color: #aaaaaa;
+
+}
+div#parent section .content p{
+font-size: 14px;
+font-weight: 500;
+
+}
+div#parent section .btn{
+	margin-top: 40px;
+	display: flex;
+}
+div#parent section .btn{
+	text-decoration: none;
+	font-size: 20px;
+	height: 15px;
+	width: 15px;
+	border: 1ps solid black;
+	border-radius: 50%;
+	padding: 8px;
+	diplay:flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 2s ease-in-out;
+}
+div#parent section .btn a:first-child{
+	margin-right: 10px;
+	color: red;
+	border: 1px solid red;
+}
+div#parent section .btn a:last-child{
+	margin-right: 10px;
+	color: #4CAF50;
+	border: 1px solid #4CAF50;
+}
+div#parent section .btn a:first-child:hover{
+	background-color: red;
+	color: #fff;
+	
+}
+div#parent section .btn a:last-child:hover{
+	background-color:#4CAF50;
+	color: #fff;
+
+}
+div#parent section aside{
+	transform-origin: right;
+	transform: rotate(90deg);
+	position: relative;
+	top: 500px;
+}
+div#parent section aside ul li{
+	display:inline-block;
+	margin-right: 70px;
+}
+div#parent section aside ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color:#000;
+	text-transform: capitalize;
+}
+div#parent footer{
+	height: 200px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+div#parent footer .left{
+	background-color: gray;
+	height: inherit;
+	width: 100%;
+}
+div#parent footer .right{
+	background-color: #273238;
+	height: inherit;
+	width: 50%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+div#parent footer .left .content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 200px;
+}
+div#parent footer .left .content h1{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: sans-serif;
+}
+div#parent footer .left .content a{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #6b6b6b;
+}
+
+div#parent footer .left .content a:hover{
+	
+	color: #000;
+}
+div#parent footer .left .content h4{
+	font-size: 14px;
+	
+	font-family: sans-serif;
+}
+div#parent .foo{
+	position: relative;
+	z-index: 3;
+}
+div#parent .foo.pic{
+	position: relative;
+	height: 256px;
+	width: 100%;
+	bottom: 50px;
+	overflow: hidden;
+}
+div#parent footer .foo.btn{
+	display: flex;
+	bottom:50px;
+}
+div#parent footer .foo.btn button{
+	border:none;
+	background-color: #273238;
+	color:#fff;
+	padding: 20px;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all 250ms ease-in-out;
+}
+div#parent footer .foo.btn button:hover{
+	background-color: #192125;
+}
+div#parent footer .foo.text{
+	color: #2c3e50;
+	padding-left: 20px;
+}
+div#parent footer .foo.text h4{
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+div#parent footer .foo.text p{
+	
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+@media(max-width:1020px){
+	div#parent{
+		width: 100%;
+	background-position-y: 10px;
+	background-position-x: 20px;
+		
+
+	}
+	div#parent header  nav ul li a{
+		position: relative;
+		bottom: 130px;
+	}
+
+	div#parent section{
+	top:160px;
+
+}
+div#parent .title h1{
+	font-size: 55px;
+	width: 100%;
+}
+div#parent section aside{
+	display: none;
+}
+
+div#parent footer .left .content h4{
+	width: 50%;
+}
+div#parent section .btn{
+	margin-bottom: 30px;
+}
+
+
+.checkbtn{
+	display: block;
+	position: relative;
+	bottom: 36px;
+	font-size: 36px;
+	
+}
+ul{
+	position: fixed;
+	width: 50%;
+	height: 60vh;
+/*	background:#2c3e50;*/
+	top:100px;
+	left:-100%;
+	transition: all .5s;
+	z-index: 1;
+}
+
+div#parent header nav ul li a{
+	width: 100px;
+	position: relative;
+	top: 30px;
+	left:-100px;
+	padding-top:20px;
+	font-size: 15px;
+}
+ ul li a:hover{
+	background: none;
+
+}
+#check:checked ~ ul{
+	left: 0;
+}
+div#parent header nav ul li{
+	float: right;
+
+}
+
+}
+
+/*@media(max-width:799px){
+	div#parent header nav ul li a{
+	width: 200px;
+	position: relative;
+	top: 30px;
+	left:-160px;
+	padding-top:20px;
+	font-size: 15px;
+}
+*/
+}

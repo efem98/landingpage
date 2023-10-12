@@ -1,0 +1,36 @@
+.contact{
+	text-align: center;
+
+}
+.contact h1{
+	font-size: 60px;
+	text-transform: capitalize;
+}
+.contact-p i{
+	font-size: 50px;
+	padding-top: 30px;
+}
+.fa-solid{
+	color: lightseagreen;
+}
+.fa-envelope{
+	color: red;
+}
+.fa-whatsapp{
+	color: green;
+}
+.fa-facebook-f{
+	color: blue;
+}
+.fa-linkedin{
+	color: darkskyblue;
+}
+@media(max-width:1020px){
+	.contact h1{
+	font-size: 40px;
+}
+.contact-p i{
+	font-size: 30px;
+	
+}
+}
